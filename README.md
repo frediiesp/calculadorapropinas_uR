@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Calculadora de Propinas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Calculadora de Propinas](https://github.com/frediiesp/calculadorapropinas/blob/master/screenshot.png)
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Calculadora de Propinas es una aplicación web desarrollada con React que permite a los usuarios agregar, eliminar y gestionar alimentos para una orden y calcular el total a pagar de acuerdo a un porcentaje de propinas. La aplicación está desplegada en [Vercel](https://calculadorapropinas-iota.vercel.app/).
 
-## Expanding the ESLint configuration
+## Características
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Añadir alimentos a la cuenta
+- Eliminar alimentos de una cuenta
+- Calcular la propina
+- Calcular el total de la cuenta de acuerdo a la propina
+- Interfaz amigable y responsive
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologías Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React** - Biblioteca de JavaScript para construir interfaces de usuario
+- **Vite** - Herramienta de construcción rápida para proyectos web
+- **Vercel** - Plataforma para el despliegue de aplicaciones web
+- **CSS** - Para el estilo de la aplicación
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instalación y Ejecución
+
+Sigue estos pasos para ejecutar el proyecto localmente:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/frediiesp/calculadorapropinas.git
