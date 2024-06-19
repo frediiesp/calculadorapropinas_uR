@@ -1,33 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import MenuItem from "./components/MenuItem"
+import OrderContets from "./components/OrderContets"
+import { menuItems } from "./data/db"
+import useOrder from "./hooks/useOrder"
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const { order, addItem, removeItem } = useOrder()
+ 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header className=" bg-amber-400 py-3">
+        <h1 className=" text-center text-2xl font-black">Calculadura de Propinas y Consumo</h1>
+      </header>
+
+      <main className=" max-w-7xl mx-auto py-20 grid md:grid-cols-2">
+        <div className="p-5">
+          <h2 className="text-2xl font-black">Menú</h2>
+
+          <div className=" space-y-2 mt-4">
+            { menuItems.map(item => (
+              <MenuItem
+                key={item.id}
+                item={item}
+                addItem={addItem}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className="border border-dashed border-amber-400 p-5 rounded-lg space-y-10">
+          <OrderContets
+            order={order}
+            removeItem={removeItem}
+          />
+        </div>
+      </main>
     </>
   )
 }
