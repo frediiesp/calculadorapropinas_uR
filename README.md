@@ -1,10 +1,10 @@
 # Calculadora de Propinas
 
-![Calculadora de Propinas](https://github.com/frediiesp/calculadorapropinas/blob/master/screenshot.png)
+![Calculadora de Propinas](https://github.com/frediiesp/calculadorapropinas/blob/main/screenshot.png)
 
 ## Descripción
 
-Calculadora de Propinas es una aplicación web desarrollada con React que permite a los usuarios agregar, eliminar y gestionar alimentos para una orden y calcular el total a pagar de acuerdo a un porcentaje de propinas. La aplicación está desplegada en [Vercel](https://calculadorapropinas-iota.vercel.app/).
+Calculadora de Propinas es una aplicación web desarrollada con React que permite a los usuarios agregar, eliminar y gestionar alimentos para una orden y calcular el total a pagar de acuerdo a un porcentaje de propinas. La aplicación está desplegada en [Vercel](https://calculadorapropinas.vercel.app/).
 
 ## Características
 
