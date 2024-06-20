@@ -1,6 +1,6 @@
 # Calculadora de Propinas
 
-![Calculadora de Propinas](https://github.com/frediiesp/calculadorapropinas/blob/main/screenshot.png)
+![Calculadora de Propinas](https://github.com/frediiesp/calculadorapropinas/blob/main/screenshot.webp)
 
 ## Descripción
 
