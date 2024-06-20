@@ -28,3 +28,27 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/frediiesp/calculadorapropinas.git
+
+2. Navega al directorio del proyecto:
+   ```bash
+   cd carritocompras
+
+3. Instala las dependencias:
+   ```bash
+   npm install
+
+4. Ejecuta la aplicación:
+   ```bash
+   npm run dev
+
+5. Abre tu navegador y visita http://localhost para ver la aplicación en funcionamiento
+
+## Despliegue
+
+El proyecto está desplegado en Vercel y puedes acceder a la aplicación en el siguiente enlace: [Calculadora de Propinas](https://calculadorapropinas.vercel.app/).
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [byfrediiesp@gmail.com](byfrediiesp@gmail.com).
+
+¡Gracias por visitar mi proyecto!
