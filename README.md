@@ -17,9 +17,10 @@ Calculadora de Propinas es una aplicación web desarrollada con React que permit
 ## Tecnologías Utilizadas
 
 - **React** - Biblioteca de JavaScript para construir interfaces de usuario
+- **TypeScript** - Superset de JavaScript que añade tipos estáticos
+- **Tailwind CSS** - Framework de CSS para el diseño de la aplicación
 - **Vite** - Herramienta de construcción rápida para proyectos web
 - **Vercel** - Plataforma para el despliegue de aplicaciones web
-- **CSS** - Para el estilo de la aplicación
 
 ## Instalación y Ejecución
 
